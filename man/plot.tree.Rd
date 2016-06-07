@@ -7,11 +7,15 @@
 \method{plot}{tree}(gtree, labels = c("name", "id"))
 }
 \arguments{
-\item{gtree}{igraph object}
+\item{gtree}{an igraph object with a tree structure (no cicles)}
 
-\item{labels}{type of label to be shown over vertices, if any}
+\item{labels}{the type of label to be shown over vertices (if any)}
 }
 \description{
 Plots a discussion tree using nice parameters
+}
+\details{
+This is a function to fast plot the structure of conversations. 
+If `label` is NA then no label is used.
 }
 

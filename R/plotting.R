@@ -4,8 +4,10 @@
 
 #' Plots a discussion tree using nice parameters
 #'
-#' @param gtree igraph object
-#' @param labels type of label to be shown over vertices, if any
+#' @param gtree an igraph object with a tree structure (no cicles)
+#' @param labels the type of label to be shown over vertices (if any)
+#' @details This is a function to fast plot the structure of conversations. 
+#' If `label` is NA then no label is used.
 #' @export
 plot.tree <- function(gtree, labels=c('name', 'id')){
   # Plots a tree graph
