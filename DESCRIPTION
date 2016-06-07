@@ -1,0 +1,11 @@
+Package: rlumbreras
+Title: Miscellaneous helpful functions that I use regularly
+Version: 0.1
+Authors@R: person("Alberto", "Lumbreras", email = "alberto.lumbreras@gmail.com", role = c("aut", "cre"))
+Description: This is where I collect various helpful functions to stop myself
+    from having to copy and paste them from project to project.
+Depends:
+    R (>= 3.3.0)
+License: MIT
+LazyData: true
+RoxygenNote: 5.0.1
