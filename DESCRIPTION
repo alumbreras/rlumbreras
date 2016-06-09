@@ -5,8 +5,7 @@ Authors@R: person("Alberto", "Lumbreras", email = "alberto.lumbreras@gmail.com",
 Description: This is where I collect various helpful functions to stop myself
     from having to copy and paste them from project to project.
 Depends:
-    R (>= 3.3.0)
-Imports:
+    R (>= 3.3.0),
     RSQLite,
     dplyr,
     igraph

@@ -1,6 +1,7 @@
 #
 # Plotting functions
 #
+library(igraph)
 
 #' Plots a discussion tree using nice parameters
 #'
