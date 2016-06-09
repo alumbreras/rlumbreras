@@ -6,6 +6,11 @@ Description: This is where I collect various helpful functions to stop myself
     from having to copy and paste them from project to project.
 Depends:
     R (>= 3.3.0)
+Imports:
+    RSQLite,
+    dplyr,
+    igraph
+
 License: MIT
 LazyData: true
 RoxygenNote: 5.0.1
